@@ -1,32 +1,30 @@
 // import { responseErrorHandler } from '@/common'
 import { responseErrorHandler } from '../utilites/responseErrorHandler'
-import { instance } from './instance'
+import { api } from './client'
 import type { AxiosInstance } from 'axios'
+import mokeData from '../../../responsePoiskkino.json'
 
-
-// import { NewsFeedQuery, NewsFeedRoot } from '../model'
-// import { NewsFeedRequestEndpoints } from './newsFeed.endpoints'
-
-
+// console.log(mokeData);
 class FilmsApi {
 
   private instance: AxiosInstance
 
-  constructor(instance: AxiosInstance) {
-    this.instance = instance
+  constructor(api: AxiosInstance) {
+    this.instance = api
   }
 
   async getFilms(data?: any, signal?: AbortSignal) {
     try {
-      const res = await this.instance.get(
-        '/movie',
-        {
-          // params: data,
-          signal,
-        }
-      )
+      // const res = await this.instance.get(
+      //   '/movie',
+      //   {
+      //     params: data,
+      //     signal,
+      //   }
+      // )
 
-      return res.data
+      // return res.data
+      return mokeData
     } catch (error) {
       responseErrorHandler(error)
       throw error
@@ -34,4 +32,4 @@ class FilmsApi {
   }
 }
 
-export const filmsApi = new FilmsApi(instance)
+export const filmsApi = new FilmsApi(api)

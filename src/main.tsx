@@ -13,3 +13,14 @@ createRoot(document.getElementById('root')!).render(
     </ConfigProvider>
   </StrictMode>,
 );
+
+
+// createRoot(document.getElementById('root')!).render(
+//   <StrictMode>
+//     <ConfigProvider>
+//       <AdaptivityProvider>
+//         <App />
+//       </AdaptivityProvider>
+//     </ConfigProvider>
+//   </StrictMode>,
+// );

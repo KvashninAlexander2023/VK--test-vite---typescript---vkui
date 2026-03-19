@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // Базовый URL - работает и локально, и на Vercel
-const api = axios.create({
+export const api = axios.create({
   baseURL: '/api',
   headers: {
     'Content-Type': 'application/json',
