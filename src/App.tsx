@@ -13,6 +13,7 @@ import { useColorSchemeSwitcher } from './ColorSchemeSwitcher';
 import styles from './App.module.css';
 import { useEffect } from 'react';
 import { filmsApi } from './common/api/test.api';
+import { fetchFromApi } from './common/api/client';
 
 function Copyright() {
   return (
@@ -40,13 +41,14 @@ function ProTip() {
 export default function App() {
   const [colorScheme, colorSchemeSwitcher] = useColorSchemeSwitcher();
 
-  // useEffect(()=>{
-  //   filmsApi.getFilms().then((films)=>{
-  //     console.log(films);
-  //   })
+  useEffect(()=>{
+    // filmsApi.getFilms().then((films)=>{
+    //   console.log(films);
+    // })
 
-    
-  // },[])
+    // fetchFromApi('/search', { query: 'matrix' })
+    // fetchFromApi('/movie')
+  },[])
 
 
   return (
