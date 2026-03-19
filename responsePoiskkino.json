@@ -1,0 +1,2542 @@
+{
+  "docs": [
+    {
+      "id": 11534496,
+      "alternativeName": "Cursa",
+      "countries": [
+        {
+          "name": "Румыния"
+        }
+      ],
+      "genres": [
+        {
+          "name": "боевик"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 97,
+      "rating": {
+        "kp": 0,
+        "imdb": 6.4,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 18,
+        "imdb": 1300,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Cursa",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534012,
+      "alternativeName": "Super Why!",
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "genres": [
+        {
+          "name": "мультфильм"
+        }
+      ],
+      "isSeries": true,
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "totalSeriesLength": 30,
+      "type": "animated-series",
+      "typeNumber": 5,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Super Why!",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11535475,
+      "alternativeName": "The Silent Noise",
+      "countries": [
+        {
+          "name": "Филиппины"
+        }
+      ],
+      "genres": [
+        {
+          "name": "триллер"
+        },
+        {
+          "name": "драма"
+        },
+        {
+          "name": "криминал"
+        }
+      ],
+      "isSeries": true,
+      "name": "Тихий шум",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/adcbd967-b6a9-47ab-ac5c-f2511793de05/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/adcbd967-b6a9-47ab-ac5c-f2511793de05/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026,
+          "end": 2026
+        }
+      ],
+      "status": "FILMING",
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "The Silent Noise",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534510,
+      "alternativeName": "Les aventuriers de l'Egypte antique",
+      "countries": [
+        {
+          "name": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "name": "история"
+        }
+      ],
+      "isSeries": true,
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2025,
+          "end": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "totalSeriesLength": 52,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Les aventuriers de l'Egypte antique",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534281,
+      "alternativeName": "Hermanas, un amor compartido",
+      "countries": [
+        {
+          "name": "Мексика"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": true,
+      "rating": {
+        "kp": 0,
+        "imdb": 3.9,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "totalSeriesLength": 60,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 14,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Hermanas, un amor compartido",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534201,
+      "alternativeName": "Yanki: Ikinci Perde",
+      "countries": [
+        {
+          "name": "Турция"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": true,
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Yanki: Ikinci Perde",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534319,
+      "alternativeName": "Corazón de oro",
+      "countries": [
+        {
+          "name": "Мексика"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": true,
+      "name": "Золотое сердце",
+      "rating": {
+        "kp": 0,
+        "imdb": 3.1,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "totalSeriesLength": 60,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 13,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Corazón de oro",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534259,
+      "alternativeName": "Doc",
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": true,
+      "rating": {
+        "kp": 0,
+        "imdb": 7.1,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 9,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Doc",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11551151,
+      "alternativeName": "Leap Day",
+      "countries": [
+        {
+          "name": "Таиланд"
+        }
+      ],
+      "genres": [
+        {
+          "name": "триллер"
+        },
+        {
+          "name": "драма"
+        },
+        {
+          "name": "фэнтези"
+        }
+      ],
+      "isSeries": true,
+      "name": "Високосный день",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/a3035612-8a1c-4ba9-8de0-069b92f23ce1/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/a3035612-8a1c-4ba9-8de0-069b92f23ce1/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 8.4,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2025,
+          "end": 2025
+        }
+      ],
+      "seriesLength": 46,
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 213,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Leap Day",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11550480,
+      "alternativeName": "Крошки",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "мультфильм"
+        }
+      ],
+      "isSeries": true,
+      "name": "Крошки",
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026,
+          "end": 2026
+        }
+      ],
+      "seriesLength": 3,
+      "ticketsOnSale": false,
+      "type": "animated-series",
+      "typeNumber": 5,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Крошки",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11550508,
+      "alternativeName": "Ледовая братва",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "мультфильм"
+        }
+      ],
+      "isSeries": true,
+      "name": "Ледовая братва",
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026,
+          "end": 2026
+        }
+      ],
+      "seriesLength": 22,
+      "ticketsOnSale": false,
+      "type": "animated-series",
+      "typeNumber": 5,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Ледовая братва",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11550536,
+      "alternativeName": "Маугли и Акира. Новые приключения",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "мультфильм"
+        }
+      ],
+      "isSeries": true,
+      "name": "Маугли и Акира. Новые приключения",
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026,
+          "end": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "animated-series",
+      "typeNumber": 5,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Маугли и Акира. Новые приключения",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11540753,
+      "alternativeName": "Oneuldo maejinhaesseumnida",
+      "countries": [
+        {
+          "name": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "name": "мелодрама"
+        },
+        {
+          "name": "комедия"
+        }
+      ],
+      "isSeries": true,
+      "name": "Сегодня снова всё распродано",
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "seriesLength": 70,
+      "status": "POST_PRODUCTION",
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Oneuldo maejinhaesseumnida",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11556591,
+      "alternativeName": "Роковой мужчина",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "детектив"
+        },
+        {
+          "name": "мелодрама"
+        }
+      ],
+      "isSeries": true,
+      "name": "Роковой мужчина",
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2025,
+          "end": 2025
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Роковой мужчина",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11556597,
+      "alternativeName": "Брошенная невеста",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "детектив"
+        }
+      ],
+      "isSeries": true,
+      "name": "Брошенная невеста",
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2025,
+          "end": 2025
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 1,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Брошенная невеста",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11556585,
+      "alternativeName": "Одиночки с прицепом",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "мелодрама"
+        }
+      ],
+      "isSeries": true,
+      "name": "Одиночки с прицепом",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10835644/cd0733f5-73da-4ac9-b2dc-613b609f7a10/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10835644/cd0733f5-73da-4ac9-b2dc-613b609f7a10/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2025,
+          "end": 2025
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Одиночки с прицепом",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11556598,
+      "alternativeName": "Стеклянный дом",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "детектив"
+        },
+        {
+          "name": "драма"
+        },
+        {
+          "name": "мелодрама"
+        }
+      ],
+      "isSeries": true,
+      "name": "Стеклянный дом",
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2025,
+          "end": 2025
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Стеклянный дом",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11556700,
+      "alternativeName": "Maou no Musume wa Yasashisugiru!!",
+      "countries": [
+        {
+          "name": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "name": "аниме"
+        },
+        {
+          "name": "мультфильм"
+        },
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "комедия"
+        }
+      ],
+      "isSeries": true,
+      "name": "Дочь короля демонов слишком добрая!",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10809116/6ceec172-f1f2-487c-a40f-3b7953f6afd7/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10809116/6ceec172-f1f2-487c-a40f-3b7953f6afd7/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 6.4,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026,
+          "end": 2026
+        }
+      ],
+      "seriesLength": 23,
+      "ticketsOnSale": false,
+      "type": "anime",
+      "typeNumber": 4,
+      "votes": {
+        "kp": 0,
+        "imdb": 142,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Maou no Musume wa Yasashisugiru!!",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11558415,
+      "alternativeName": "Wild Rose",
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": true,
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Wild Rose",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11572513,
+      "ageRating": 18,
+      "alternativeName": "Пешка под королевой",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "description": "Эпатажная шахматистка Ольга обещает переспать с тем, кто обыграет её на турнире. Но боксер Кирилл узнаёт в ней первую любовь и принимает вызов, хоть и ни разу не играл в шахматы.",
+      "genres": [
+        {
+          "name": "комедия"
+        },
+        {
+          "name": "мелодрама"
+        }
+      ],
+      "isSeries": true,
+      "name": "Пешка под королевой",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/2a43564a-eaf6-4304-b06d-69309a6e2835/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/2a43564a-eaf6-4304-b06d-69309a6e2835/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026,
+          "end": 2026
+        }
+      ],
+      "seriesLength": 2,
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Пешка под королевой",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11592752,
+      "alternativeName": "Big Mistakes",
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "genres": [
+        {
+          "name": "комедия"
+        },
+        {
+          "name": "криминал"
+        },
+        {
+          "name": "семейный"
+        }
+      ],
+      "isSeries": true,
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "status": "COMPLETED",
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Big Mistakes",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11571927,
+      "alternativeName": "Je sais pas",
+      "countries": [
+        {
+          "name": "Бельгия"
+        },
+        {
+          "name": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "name": "триллер"
+        },
+        {
+          "name": "драма"
+        },
+        {
+          "name": "криминал"
+        }
+      ],
+      "isSeries": true,
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2025,
+          "end": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "totalSeriesLength": 52,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 2,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Je sais pas",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11571107,
+      "alternativeName": "Secret Love with my Billionaire Revenge Partner",
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "Эвелин мстит жестоким родителям и сближается с влюблённым в неё богачом Фрэнсисом, который её спас.",
+      "genres": [
+        {
+          "name": "комедия"
+        }
+      ],
+      "isSeries": true,
+      "name": "Тайный союз с миллиардером",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/9fe8ebe6-2037-437a-94fc-054b1d75596d/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/9fe8ebe6-2037-437a-94fc-054b1d75596d/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 7.3,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2025,
+          "end": 2025
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 20,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Secret Love with my Billionaire Revenge Partner",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11571120,
+      "alternativeName": "Campaigning for Love",
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "Стажёрка из предвыборного штаба проводит ночь с таинственным мужчиной. Позже девушка обнаруживает, что её любовник — это её босс и кандидат в Сенат. Чтобы защитить карьеру обоих, она принимает новую личность, но ситуация становится ещё более запутанной.",
+      "genres": [
+        {
+          "name": "мелодрама"
+        }
+      ],
+      "isSeries": true,
+      "name": "Служебный роман: сенатор и стажёрка",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/813a74d0-bf70-4739-a5e3-969f0b6abe20/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/813a74d0-bf70-4739-a5e3-969f0b6abe20/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 7.9,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2025,
+          "end": 2025
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 63,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Campaigning for Love",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11570710,
+      "alternativeName": "Irresistible Love with My Brother in Law",
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "В разгар семейных драм беременная вдова Амелия, изо всех сил пытаясь обрести опору, находит утешение в объятиях Энтони, брата её умершего мужа.",
+      "genres": [
+        {
+          "name": "драма"
+        },
+        {
+          "name": "мелодрама"
+        }
+      ],
+      "isSeries": true,
+      "name": "Я влюбилась  в брата мужа",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/a8f88824-f9e1-4e48-973f-ea3f10b015c8/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/a8f88824-f9e1-4e48-973f-ea3f10b015c8/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 7.9,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2025
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 93,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Irresistible Love with My Brother in Law",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11570462,
+      "alternativeName": "Married a Gardener, Got a Prince",
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "description": "Американская наследница Анна безутешна и опустошена, когда узнаёт об измене её жениха. Она снова обретает вкус к жизни благодаря «садовнику» Филиппу, который скрывает, что является принцем. Чтобы сохранить семейный бизнес, Анна соглашается выйти за него замуж, не подозревая, кто он на самом деле.",
+      "genres": [
+        {
+          "name": "мелодрама"
+        }
+      ],
+      "isSeries": true,
+      "name": "Вышла за садовника, оказался принцем!",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/ceb4dd5b-9ba2-4db1-af9a-ee4ee2d3f42e/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/ceb4dd5b-9ba2-4db1-af9a-ee4ee2d3f42e/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 8.2,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2025,
+          "end": 2025
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 84,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Married a Gardener, Got a Prince",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11570007,
+      "alternativeName": "Твой дом",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "комедия"
+        }
+      ],
+      "isSeries": true,
+      "name": "Твой дом",
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "seriesLength": 20,
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Твой дом",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11570010,
+      "alternativeName": "9 месяцев",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "ток-шоу"
+        }
+      ],
+      "isSeries": true,
+      "name": "9 месяцев",
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "seriesLength": 50,
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "9 месяцев",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11569267,
+      "ageRating": 18,
+      "alternativeName": "Mira",
+      "countries": [
+        {
+          "name": "Турция"
+        }
+      ],
+      "description": "Десятилетний брак Миры внезапно рушится, когда муж неожиданно подает на развод. Пытаясь удержаться на плаву в мире, к которому она совершенно не готова, она отправляется в путешествие, чтобы заново построить свою жизнь, найти себя и понять, кто она такая.",
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": true,
+      "name": "Мира",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/efbdf580-1421-4e94-9d82-97946b452377/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/efbdf580-1421-4e94-9d82-97946b452377/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "seriesLength": 30,
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Mira",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11567468,
+      "alternativeName": "Defying Destiny",
+      "countries": [
+        {
+          "name": "Колумбия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": true,
+      "rating": {
+        "kp": 0,
+        "imdb": 7.8,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 61,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Defying Destiny",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11567467,
+      "alternativeName": "Lobo, morir matando",
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": true,
+      "rating": {
+        "kp": 0,
+        "imdb": 6.1,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "totalSeriesLength": 60,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 0,
+        "imdb": 18,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Lobo, morir matando",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11558480,
+      "alternativeName": "Le Libere Donne",
+      "countries": [
+        {
+          "name": "Италия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": true,
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "releaseYears": [
+        {
+          "start": 2026
+        }
+      ],
+      "ticketsOnSale": false,
+      "type": "tv-series",
+      "typeNumber": 2,
+      "votes": {
+        "kp": 1,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Le Libere Donne",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11473058,
+      "alternativeName": "7 steg",
+      "countries": [
+        {
+          "name": "Швеция"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        },
+        {
+          "name": "мелодрама"
+        }
+      ],
+      "isSeries": false,
+      "rating": {
+        "kp": 0,
+        "imdb": 6,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 211,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "7 steg",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534483,
+      "alternativeName": "Eastern Western",
+      "countries": [
+        {
+          "name": "США"
+        },
+        {
+          "name": "Босния и Герцеговина"
+        },
+        {
+          "name": "Болгария"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        },
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "семейный"
+        },
+        {
+          "name": "вестерн"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 108,
+      "rating": {
+        "kp": 0,
+        "imdb": 7.6,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 31,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Eastern Western",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534468,
+      "alternativeName": "EdiblEats",
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "genres": [
+        {
+          "name": "ужасы"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 87,
+      "rating": {
+        "kp": 0,
+        "imdb": 6.1,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 11,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "EdiblEats",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534156,
+      "alternativeName": "Lion Rock",
+      "countries": [
+        {
+          "name": "Новая Зеландия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "короткометражка"
+        },
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 16,
+      "rating": {
+        "kp": 0,
+        "imdb": 6.5,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 26,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Lion Rock",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534077,
+      "alternativeName": "Te protegerán mis alas",
+      "countries": [
+        {
+          "name": "Испания"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        },
+        {
+          "name": "биография"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 107,
+      "rating": {
+        "kp": 0,
+        "imdb": 6.3,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 11,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Te protegerán mis alas",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11538506,
+      "alternativeName": "Баба Яга и Лесная Царевна",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "description": "Узнав, что Царевич Елисей ищет невесту, коварная колдунья Ядвига решает во что бы то ни стало выдать за него свою неуклюжую дочь Авдотью. Породнившись с царской семьей, она мечтает править людским миром. Но на пути к её цели стоит падчерица — добрая и прекрасная Алёнушка. Чтобы избавиться от соперницы, Ядвига отправляет девушку в лес на верную погибель. Однако Алёнушка встречает доброго Лешего — древнего духа леса, который спасает её и помогает попасть на царский бал. Там Алёнушка покоряет сердце царевича. Но злая Ядвига, оказавшаяся самой настоящей Бабой Ягой, хитростью заманивает падчерицу в заколдованную Гиблую рощу, откуда нет возврата. Спасти Алёнушку сможет лишь тот, кто полюбит её всем сердцем — чисто, искренне и навсегда.",
+      "genres": [
+        {
+          "name": "семейный"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 85,
+      "name": "Баба Яга и Лесная Царевна",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703859/32b0fdb1-a811-41ec-ac6e-dc1c396a4287/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703859/32b0fdb1-a811-41ec-ac6e-dc1c396a4287/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Баба Яга и Лесная Царевна",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11538497,
+      "alternativeName": "Спящая красавица",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "description": "Царевну Любаву, скрывающую от мира свою тайну с помощью волшебного гребня матери, отравляет коварная Шамаханская царица, вступившая в сговор с заточенной в зеркале колдуньей. Пока тело девушки погружается в вечный сон, ее душа оказывается в мире грёз. Спасти ее может лишь изобретатель Иван, который ради этого отправляется в опасное путешествие на окраину царства.",
+      "genres": [
+        {
+          "name": "семейный"
+        },
+        {
+          "name": "фэнтези"
+        },
+        {
+          "name": "приключения"
+        }
+      ],
+      "isSeries": false,
+      "name": "Спящая красавица",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10953618/51ab608a-288c-4a27-9d25-c1a107878164/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10953618/51ab608a-288c-4a27-9d25-c1a107878164/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Спящая красавица",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11538494,
+      "alternativeName": "Yong bu shi lian de ai",
+      "countries": [
+        {
+          "name": "Китай"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        },
+        {
+          "name": "мелодрама"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 100,
+      "name": "Вечная любовь",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/8003a927-0f96-470b-b9e1-6a1d91c96c7b/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/8003a927-0f96-470b-b9e1-6a1d91c96c7b/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Вечная любовь",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        },
+        {
+          "name": "Yong bu shi lian de ai",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11538491,
+      "alternativeName": "Al Selm w Al Thoban: Leab Eyal",
+      "countries": [
+        {
+          "name": "Египет"
+        }
+      ],
+      "description": "Ахмед и Малак знакомятся и вскоре влюбляются. Они пытаются произвести впечатление друг на друга, раскрываясь с лучшей стороны, и верят, что их отношения выдержат любые испытания и продлятся всю жизнь.",
+      "genres": [
+        {
+          "name": "драма"
+        },
+        {
+          "name": "мелодрама"
+        },
+        {
+          "name": "комедия"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 122,
+      "name": "Змеи и лестницы: Детские забавы",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/e2de0892-5980-4766-b814-d09acd740bd0/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/e2de0892-5980-4766-b814-d09acd740bd0/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 5.1,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 136,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Змеи и лестницы: Детские забавы",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        },
+        {
+          "name": "Al Selm w Al Thoban: Leab Eyal",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11537920,
+      "ageRating": 12,
+      "alternativeName": "Притворись моей бывшей",
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "description": "Успешный стоматолог Антон, привыкший к лёгким победам, влюбляется в принципиальную Леру — и в панике сочиняет историю о бывшей жене. Теперь его коллеге Насте предстоит сыграть роль «экс-партнёрши», а её дочери Томе — с удивлением наблюдать, как взрослые запутываются в собственной лжи.",
+      "genres": [
+        {
+          "name": "комедия"
+        },
+        {
+          "name": "семейный"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 83,
+      "name": "Притворись моей бывшей",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/6854b509-8dfa-4109-9baf-192520e555af/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/6854b509-8dfa-4109-9baf-192520e555af/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Притворись моей бывшей",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534521,
+      "alternativeName": "Banlieusards 3",
+      "countries": [
+        {
+          "name": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 112,
+      "rating": {
+        "kp": 0,
+        "imdb": 4.9,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 202,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Banlieusards 3",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11534512,
+      "alternativeName": "Chronicles from the Siege",
+      "countries": [
+        {
+          "name": "Алжир"
+        },
+        {
+          "name": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 98,
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Chronicles from the Siege",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11548662,
+      "alternativeName": "Honey",
+      "countries": [
+        {
+          "name": "Индия"
+        }
+      ],
+      "genres": [
+        {
+          "name": "ужасы"
+        },
+        {
+          "name": "триллер"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 120,
+      "rating": {
+        "kp": 0,
+        "imdb": 3.9,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 2274,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Honey",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11549433,
+      "alternativeName": "Tempted",
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "genres": [
+        {
+          "name": "триллер"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 90,
+      "rating": {
+        "kp": 0,
+        "imdb": 5.6,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 49,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Tempted",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11538509,
+      "alternativeName": "Karma",
+      "countries": [
+        {
+          "name": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "name": "триллер"
+        }
+      ],
+      "isSeries": false,
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "status": "POST_PRODUCTION",
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Karma",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11539646,
+      "alternativeName": "Hodonaku, Owakare desu",
+      "countries": [
+        {
+          "name": "Япония"
+        }
+      ],
+      "description": "Девушка начинает работать в похоронном бюро.",
+      "genres": [
+        {
+          "name": "драма"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 124,
+      "name": "Время прощаться",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/e2bcc45a-a206-4ba1-9f20-c23304a206ec/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/e2bcc45a-a206-4ba1-9f20-c23304a206ec/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 6.7,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 10,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Время прощаться",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        },
+        {
+          "name": "Hodonaku, Owakare desu",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11539951,
+      "alternativeName": "The Remedy",
+      "countries": [
+        {
+          "name": "США"
+        }
+      ],
+      "genres": [
+        {
+          "name": "ужасы"
+        }
+      ],
+      "isSeries": false,
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "The Remedy",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    },
+    {
+      "id": 11540054,
+      "alternativeName": "Los ojos del abismo",
+      "countries": [
+        {
+          "name": "Аргентина"
+        }
+      ],
+      "genres": [
+        {
+          "name": "ужасы"
+        },
+        {
+          "name": "боевик"
+        },
+        {
+          "name": "триллер"
+        },
+        {
+          "name": "детектив"
+        },
+        {
+          "name": "военный"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 72,
+      "rating": {
+        "kp": 0,
+        "imdb": 8.7,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "movie",
+      "typeNumber": 1,
+      "votes": {
+        "kp": 0,
+        "imdb": 347,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2025,
+      "names": [
+        {
+          "name": "Los ojos del abismo",
+          "language": null,
+          "type": "Original title on kinopoisk"
+        }
+      ]
+    }
+  ],
+  "limit": 50,
+  "next": "eyJ2IjpbbnVsbF0sImlkIjoiNjliNWRjMjcyNjRmYWU0MWNhYjBjZTM5In0=",
+  "prev": null,
+  "hasNext": true,
+  "hasPrev": false
+}
