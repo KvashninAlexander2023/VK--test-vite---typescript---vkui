@@ -25,7 +25,7 @@ export const loadFilmsFx = createEffect<LoadParams, LoadResult>(async ({ page, l
 
   const allDocs = (data.docs ?? []).filter((doc) => {
     const year = doc.year ?? doc.releaseYears?.[0]?.start
-    const ratingValue = doc.rating?.kp ?? doc.rating?.imdb ?? 0
+    const ratingValue = doc.rating?.imdb ?? 0
     const genres = (doc.genres ?? []).map((g) => g.name?.toLowerCase() ?? '')
 
     const matchYear =
