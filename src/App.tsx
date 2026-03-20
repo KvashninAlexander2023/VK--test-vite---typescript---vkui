@@ -9,22 +9,28 @@ import {
   Text,
   Title,
   Box,
+  Button,
 } from '@vkontakte/vkui'
+import { Routes, Route } from 'react-router-dom'
 import { useColorSchemeSwitcher } from './ColorSchemeSwitcher'
 import styles from './App.module.css'
 import { useEffect } from 'react'
 import { useUnit } from 'effector-react'
 import { $films, $filmsError, $filmsPending, loadFilmsFx } from './common/model/films'
 import { $filters, syncFiltersFromSearchParams } from './common/model/filters'
+import { useNavigate } from 'react-router-dom'
 
 import CardFilm from './components/CardFilm'
 import ProTip from './components/ProTip'
 import Copyright from './components/Copyright'
 import FiltersPanel from './components/FiltersPanel'
+import FilmDetailPage from './pages/FilmDetailPage'
+import FavoritesPage from './pages/FavoritesPage'
 
 
-export default function App() {
+function HomePage() {
   const [colorScheme, colorSchemeSwitcher] = useColorSchemeSwitcher()
+  const navigate = useNavigate()
 
   const [films, pending, error, filters] = useUnit([
     $films,
@@ -65,7 +71,12 @@ export default function App() {
               <Title level="2" Component="div">
                 PoiskKino
               </Title>
-              {colorSchemeSwitcher}
+              <Flex align="center" gap={8}>
+                <Button mode="tertiary" onClick={() => navigate('/favorites')}>
+                  Избранное
+                </Button>
+                {colorSchemeSwitcher}
+              </Flex>
             </Flex>
           </FixedLayout>
 
@@ -94,7 +105,7 @@ export default function App() {
 
               {!pending && !error && (
                 <Flex wrap="wrap" gap={16} justify="center" style={{ padding: 16 }}>
-                  {films.map((doc) => CardFilm(doc))}
+                  {films.map((doc) => <CardFilm key={doc.id} {...doc} />)}
                 </Flex>
               )}
             </Group>
@@ -114,5 +125,15 @@ export default function App() {
         </Flex>
       </AppRoot>
     </ColorSchemeProvider>
+  )
+}
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/film/:id" element={<FilmDetailPage />} />
+      <Route path="/favorites" element={<FavoritesPage />} />
+    </Routes>
   )
 }
