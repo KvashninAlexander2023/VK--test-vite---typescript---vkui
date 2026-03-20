@@ -84,11 +84,6 @@ export default function HomePage() {
           </Box>
         </Group>
       </Flex>
-      <FixedLayout vertical="bottom">
-        <Footer>
-          <Copyright />
-        </Footer>
-      </FixedLayout>
     </Flex>
   )
 }

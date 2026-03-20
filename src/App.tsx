@@ -7,17 +7,18 @@ import HomePage from './pages/HomePage'
 import Header from './components/Header'
 import { AppRoot, ColorSchemeProvider } from '@vkontakte/vkui'
 import { useColorSchemeSwitcher } from './ColorSchemeSwitcher'
-import Footer from './components/Footer'
+import FooterWithLayout from './components/Footer'
+import { ComparePage } from './pages/ComparePage'
 
 export const MainLayout = () => {
 
- 
+
 
   return (
     <>
       <Header />
-      <Outlet />  
-      <Footer />
+      <Outlet />
+      <FooterWithLayout />
     </>
   )
 }
@@ -25,7 +26,7 @@ export const MainLayout = () => {
 
 export default function App() {
 
-   const [colorScheme] = useColorSchemeSwitcher()
+  const [colorScheme] = useColorSchemeSwitcher()
 
   return (
     <ColorSchemeProvider value={colorScheme}>
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/film/:id" element={<FilmDetailPage />} />
             <Route path="/favorites" element={<FavoritesPage />} />
+            <Route path="/compare" element={<ComparePage />} />
           </Route>
         </Routes>
       </AppRoot>
