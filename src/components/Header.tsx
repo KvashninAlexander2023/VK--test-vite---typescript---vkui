@@ -9,7 +9,7 @@ import styles from '../App.module.css'
 
 export default function Header() {
 
-  const [ colorSchemeSwitcher] = useColorSchemeSwitcher()
+  const [theme, colorSchemeSwitcher] = useColorSchemeSwitcher()
 
 
   const getNavLinkStyle = ({ isActive }: { isActive: boolean }) => ({
@@ -18,16 +18,15 @@ export default function Header() {
 })
 
   return (
-    <FixedLayout vertical="top">
-      <Flex justify="space-between" align="center" className={styles.header}>
+    <FixedLayout vertical="top" >
+      <Flex justify="space-between" align="center" className={styles.header} style={{paddingLeft:50, paddingRight:40}}>
         <Flex align="center" gap={8}>
           <Title level="2" Component="div">
             <NavLink to={'/'} style={getNavLinkStyle}>PoiskKino</NavLink>
           </Title>
         </Flex>
-        <Flex align="center" gap={8}>
+        <Flex align="center" gap={20}>
           <Title level="2" Component="div">
-            {/* <NavLink to={'/favorites'} className="nav-link">Избранное</NavLink> */}
             <NavLink to={'/favorites'} style={getNavLinkStyle}>Избранное</NavLink>
           </Title>
           {colorSchemeSwitcher}
