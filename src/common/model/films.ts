@@ -3,7 +3,7 @@ import { filmsApi } from '../api/test.api'
 import type { PoiskkinoDoc, PoiskkinoResponse } from '../api/poiskkino.types'
 import { $filters } from './filters'
 
-const PAGE_SIZE = 20
+const PAGE_SIZE = 50
 
 type LoadParams = {
   page: number
