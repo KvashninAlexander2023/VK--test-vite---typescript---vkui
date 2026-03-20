@@ -13,3 +13,16 @@
   margin-inline-end: 2px;
   vertical-align: bottom;
 }
+
+.detailLayout {
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 600px) {
+  .detailLayout {
+    flex-direction: column;
+  }
+  .detailLayout > div:first-child {
+    width: 100% !important;
+  }
+}
