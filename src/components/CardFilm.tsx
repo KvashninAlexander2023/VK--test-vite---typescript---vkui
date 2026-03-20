@@ -1,4 +1,4 @@
-import { Box, Card, Image, Text, Title, IconButton } from '@vkontakte/vkui'
+import { Box, Card, Image, Text, Title, IconButton, Button } from '@vkontakte/vkui'
 import { Icon24FavoriteOutline, Icon24Favorite } from '@vkontakte/icons'
 import type { PoiskkinoDoc } from '../common/api/poiskkino.types'
 import { Earpiece } from './Earpiece'
@@ -8,6 +8,7 @@ import { useState } from 'react'
 import ConfirmFavoriteModal from './ConfirmFavoriteModal'
 import { addToFavorites, removeFromFavorites } from '../common/model/favorites'
 import { useNavigate } from 'react-router-dom'
+import { $compareFilmsList, addToCompare, removeFromCompare } from '../common/model/compare'
 
 export function getTitle(doc: PoiskkinoDoc) {
   return doc.name ?? doc.alternativeName ?? doc.names?.[0]?.name ?? 'Без названия'
@@ -25,6 +26,11 @@ export function getRating(doc: PoiskkinoDoc) {
 }
 
 export default function CardFilm(doc: PoiskkinoDoc) {
+  // добавил сравнение карточек
+  const compareFilms = useUnit($compareFilmsList)
+  const isInCompare = compareFilms.some(f => f.id === doc.id)
+
+
   const navigate = useNavigate()
   const favorites = useUnit($favorites)
   const isFavorite = favorites.some((f) => f.id === doc.id)
@@ -98,6 +104,21 @@ export default function CardFilm(doc: PoiskkinoDoc) {
               )}
             </IconButton>
           </div>
+
+          <Button
+            mode={isInCompare ? 'outline' : 'secondary'}
+            size="m"
+            onClick={(e) => {
+              e.stopPropagation()
+              if (isInCompare) {
+                removeFromCompare(doc.id)
+              } else {
+                addToCompare(doc)
+              }
+            }}
+          >
+            {isInCompare ? 'Убрать из сравнения' : 'Сравнить'}
+          </Button>
 
           <Box style={{ padding: 16 }}>
             <Title level="3" Component="h3">

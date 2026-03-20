@@ -18,7 +18,7 @@ export default function Header() {
 })
 
   return (
-    <FixedLayout vertical="top" >
+    <FixedLayout vertical="top" style={{}}>
       <Flex justify="space-between" align="center" className={styles.header} style={{paddingLeft:50, paddingRight:40}}>
         <Flex align="center" gap={8}>
           <Title level="2" Component="div">
@@ -26,6 +26,9 @@ export default function Header() {
           </Title>
         </Flex>
         <Flex align="center" gap={20}>
+          <Title level="2" Component="div">
+            <NavLink to={'/compare'} style={getNavLinkStyle}>Сравнить фильмы</NavLink>
+          </Title>
           <Title level="2" Component="div">
             <NavLink to={'/favorites'} style={getNavLinkStyle}>Избранное</NavLink>
           </Title>

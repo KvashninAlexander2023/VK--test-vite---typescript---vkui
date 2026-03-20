@@ -18,6 +18,8 @@ export type PoiskkinoDoc = {
   alternativeName?: string
   year?: number
   description?: string
+  seriesLength?: string
+  movieLength?: string
   poster?: PoiskkinoPoster
   rating?: PoiskkinoRating
   genres?: PoiskkinoGenre[]
