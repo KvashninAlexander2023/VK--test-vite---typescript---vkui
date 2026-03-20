@@ -1,6 +1,4 @@
 import {
-  AppRoot,
-  ColorSchemeProvider,
   FixedLayout,
   Flex,
   Footer,
@@ -8,12 +6,9 @@ import {
   Title,
   Text,
   Button,
-  IconButton,
 } from '@vkontakte/vkui'
-import { Icon24ArrowLeftOutline } from '@vkontakte/icons'
 import { useNavigate } from 'react-router-dom'
 import { useUnit } from 'effector-react'
-import { useColorSchemeSwitcher } from '../ColorSchemeSwitcher'
 import { $favorites } from '../common/model/favorites'
 import CardFilm from '../components/CardFilm'
 import Copyright from '../components/Copyright'
@@ -21,27 +16,10 @@ import styles from '../App.module.css'
 
 export default function FavoritesPage() {
   const navigate = useNavigate()
-  const [colorScheme, colorSchemeSwitcher] = useColorSchemeSwitcher()
   const favorites = useUnit($favorites)
 
   return (
-    <ColorSchemeProvider value={colorScheme}>
-      <AppRoot disableSettingVKUIClassesInRuntime>
         <Flex direction="column" className={styles.layout}>
-          <FixedLayout vertical="top">
-            <Flex justify="space-between" align="center" className={styles.header}>
-              <Flex align="center" gap={8}>
-                <IconButton label="Назад" onClick={() => navigate('/')}>
-                  <Icon24ArrowLeftOutline />
-                </IconButton>
-                <Title level="2" Component="div">
-                  PoiskKino
-                </Title>
-              </Flex>
-              {colorSchemeSwitcher}
-            </Flex>
-          </FixedLayout>
-
           <Flex
             direction="column"
             align="center"
@@ -74,7 +52,5 @@ export default function FavoritesPage() {
             </Footer>
           </FixedLayout>
         </Flex>
-      </AppRoot>
-    </ColorSchemeProvider>
   )
 }
