@@ -10,7 +10,7 @@ import {
   Button,
   IconButton,
 } from '@vkontakte/vkui'
-import { Icon24ArrowLeft } from '@vkontakte/icons'
+import { Icon24ArrowLeftOutline } from '@vkontakte/icons'
 import { useNavigate } from 'react-router-dom'
 import { useUnit } from 'effector-react'
 import { useColorSchemeSwitcher } from '../ColorSchemeSwitcher'
@@ -32,7 +32,7 @@ export default function FavoritesPage() {
             <Flex justify="space-between" align="center" className={styles.header}>
               <Flex align="center" gap={8}>
                 <IconButton label="Назад" onClick={() => navigate('/')}>
-                  <Icon24ArrowLeft />
+                  <Icon24ArrowLeftOutline />
                 </IconButton>
                 <Title level="2" Component="div">
                   PoiskKino
