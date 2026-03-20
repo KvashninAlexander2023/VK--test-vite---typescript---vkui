@@ -17,6 +17,7 @@ export type PoiskkinoDoc = {
   name?: string
   alternativeName?: string
   year?: number
+  description?: string
   poster?: PoiskkinoPoster
   rating?: PoiskkinoRating
   genres?: PoiskkinoGenre[]
