@@ -30,6 +30,7 @@ import FavoritesPage from './pages/FavoritesPage'
 
 function HomePage() {
   const [colorScheme, colorSchemeSwitcher] = useColorSchemeSwitcher()
+  
   const navigate = useNavigate()
 
   const [films, pending, error, filters] = useUnit([
