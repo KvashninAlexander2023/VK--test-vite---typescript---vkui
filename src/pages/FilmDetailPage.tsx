@@ -13,7 +13,7 @@ import {
   Subhead,
   IconButton,
 } from '@vkontakte/vkui'
-import { Icon24ArrowLeft, Icon24FavoriteOutline, Icon24Favorite } from '@vkontakte/icons'
+import { Icon24FavoriteOutline, Icon24Favorite, Icon24ArrowLeftOutline } from '@vkontakte/icons'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useUnit } from 'effector-react'
 import { useColorSchemeSwitcher } from '../ColorSchemeSwitcher'
@@ -66,7 +66,7 @@ export default function FilmDetailPage() {
             <Flex justify="space-between" align="center" className={styles.header}>
               <Flex align="center" gap={8}>
                 <IconButton label="Назад" onClick={() => navigate(-1)}>
-                  <Icon24ArrowLeft />
+                  <Icon24ArrowLeftOutline />
                 </IconButton>
                 <Title level="2" Component="div">
                   PoiskKino
