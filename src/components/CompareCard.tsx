@@ -1,8 +1,7 @@
 // components/CompareCard.tsx
-import { Card, Text, Button, Flex, Image } from '@vkontakte/vkui'
+import { Card, Text, Button, Image } from '@vkontakte/vkui'
 import type { PoiskkinoDoc } from '../common/api/poiskkino.types'
 import { removeFromCompare } from '../common/model/compare'
-import { useUnit } from 'effector-react'
 import { Earpiece } from './Earpiece'
 
 type CompareCardProps = {
@@ -11,16 +10,13 @@ type CompareCardProps = {
 }
 
 export const CompareCard = ({ film, index }: CompareCardProps) => {
-  // Получаем название
+
   const title = film.name || film.alternativeName || 'Без названия'
   
-  // Получаем рейтинг
   const rating = film.rating?.kp || film.rating?.imdb || null
   
-  // Получаем жанры
   const genres = film.genres?.map(g => g.name).join(', ') || '—'
   
-  // Получаем длительность
   const duration = film.movieLength 
     ? `${film.movieLength} мин`
     : film.seriesLength 
@@ -39,7 +35,7 @@ export const CompareCard = ({ film, index }: CompareCardProps) => {
       <Button
         mode="secondary"
         size="s"
-        style={{ position: 'absolute', top: 8, right: 8 }}
+        style={{ position: 'absolute', top: 8, right: 8, zIndex:50 }}
         onClick={() => removeFromCompare(film.id)}
       >
         ✕
