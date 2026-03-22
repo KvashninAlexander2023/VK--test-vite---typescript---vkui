@@ -846,7 +846,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:^10.0.1":
+"@eslint/js@npm:10.0.1":
   version: 10.0.1
   resolution: "@eslint/js@npm:10.0.1"
   peerDependencies:
@@ -1392,21 +1392,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^19.0.0":
-  version: 19.2.3
-  resolution: "@types/react-dom@npm:19.2.3"
-  peerDependencies:
-    "@types/react": ^19.2.0
-  checksum: 10c0/b486ebe0f4e2fb35e2e108df1d8fc0927ca5d6002d5771e8a739de11239fe62d0e207c50886185253c99eb9dedfeeb956ea7429e5ba17f6693c7acb4c02f8cd1
+"@types/react-dom@npm:19.0.0":
+  version: 19.0.0
+  resolution: "@types/react-dom@npm:19.0.0"
+  dependencies:
+    "@types/react": "npm:*"
+  checksum: 10c0/bd480fc4a9c801fc6bbc7d26b37bb815fc382e76b5428511b1bdb2e8048f3dbd2ff9973bafc86b448e0593f9da4c02f7b39d47409e427daeed5a54f045de4596
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.0.0":
+"@types/react@npm:*":
   version: 19.2.14
   resolution: "@types/react@npm:19.2.14"
   dependencies:
     csstype: "npm:^3.2.2"
   checksum: 10c0/7d25bf41b57719452d86d2ac0570b659210402707313a36ee612666bf11275a1c69824f8c3ee1fdca077ccfe15452f6da8f1224529b917050eb2d861e52b59b7
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:19.0.0":
+  version: 19.0.0
+  resolution: "@types/react@npm:19.0.0"
+  dependencies:
+    csstype: "npm:^3.0.2"
+  checksum: 10c0/d7753ec27c5fa48f3aab97d7d4e9e33ad62bbff761a421bfc56c7b403fab9e3ed266d47793e44311ca2f0034e8ae428cea4aecbe1c542b418cfe72a520eab931
   languageName: node
   linkType: hard
 
@@ -1583,7 +1592,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/node@npm:^5.6.16":
+"@vercel/node@npm:5.6.16":
   version: 5.6.16
   resolution: "@vercel/node@npm:5.6.16"
   dependencies:
@@ -1666,7 +1675,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vkontakte/icons@npm:^3.0.0, @vkontakte/icons@npm:latest":
+"@vkontakte/icons@npm:3.43.0, @vkontakte/icons@npm:^3.0.0":
   version: 3.43.0
   resolution: "@vkontakte/icons@npm:3.43.0"
   dependencies:
@@ -1708,7 +1717,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vkontakte/vkui@npm:latest":
+"@vkontakte/vkui@npm:7.11.6":
   version: 7.11.6
   resolution: "@vkontakte/vkui@npm:7.11.6"
   dependencies:
@@ -1946,7 +1955,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.13.6":
+"axios@npm:1.13.6":
   version: 1.13.6
   resolution: "axios@npm:1.13.6"
   dependencies:
@@ -2173,7 +2182,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^3.2.2":
+"csstype@npm:^3.0.2, csstype@npm:^3.2.2":
   version: 3.2.3
   resolution: "csstype@npm:3.2.3"
   checksum: 10c0/cd29c51e70fa822f1cecd8641a1445bed7063697469d35633b516e60fe8c1bde04b08f6c5b6022136bb669b64c63d4173af54864510fbb4ee23281801841a3ce
@@ -2307,7 +2316,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"effector-react@npm:^23.3.0":
+"effector-react@npm:23.3.0":
   version: 23.3.0
   resolution: "effector-react@npm:23.3.0"
   dependencies:
@@ -2319,7 +2328,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"effector@npm:^23.4.4":
+"effector@npm:23.4.4":
   version: 23.4.4
   resolution: "effector@npm:23.4.4"
   checksum: 10c0/436baad3b6e6f907dbe6c5a2fe58657048104acb228688d7a0841c9d14d8763c8df94a807ff9699f798f91e8201695d82deddfc46a53e775b15b57bce7815517
@@ -2769,7 +2778,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.37.5":
+"eslint-plugin-react@npm:7.37.5":
   version: 7.37.5
   resolution: "eslint-plugin-react@npm:7.37.5"
   dependencies:
@@ -2823,7 +2832,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^10.0.2":
+"eslint@npm:10.0.2":
   version: 10.0.2
   resolution: "eslint@npm:10.0.2"
   dependencies:
@@ -3232,7 +3241,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^17.4.0":
+"globals@npm:17.4.0":
   version: 17.4.0
   resolution: "globals@npm:17.4.0"
   checksum: 10c0/2be9e8c2b9035836f13d420b22f0247a328db82967d3bebfc01126d888ed609305f06c05895914e969653af5c6ba35fd7a0920f3e6c869afa60666c810630feb
@@ -4399,7 +4408,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:latest":
+"react-dom@npm:19.2.4":
   version: 19.2.4
   resolution: "react-dom@npm:19.2.4"
   dependencies:
@@ -4424,7 +4433,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^7.13.1":
+"react-router-dom@npm:7.13.1":
   version: 7.13.1
   resolution: "react-router-dom@npm:7.13.1"
   dependencies:
@@ -4452,7 +4461,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:latest":
+"react@npm:19.2.4":
   version: 19.2.4
   resolution: "react@npm:19.2.4"
   checksum: 10c0/cd2c9ff67a720799cc3b38a516009986f7fc4cb8d3e15716c6211cf098d1357ee3e348ab05ad0600042bbb0fd888530ba92e329198c92eafa0994f5213396596
@@ -5132,7 +5141,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.56.1":
+"typescript-eslint@npm:8.56.1":
   version: 8.56.1
   resolution: "typescript-eslint@npm:8.56.1"
   dependencies:
@@ -5147,7 +5156,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:latest, typescript@npm:typescript@5.9.3":
+"typescript@npm:5.9.3, typescript@npm:typescript@5.9.3":
   version: 5.9.3
   resolution: "typescript@npm:5.9.3"
   bin:
@@ -5157,7 +5166,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3Alatest#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3Atypescript@5.9.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3Atypescript@5.9.3#optional!builtin<compat/typescript>":
   version: 5.9.3
   resolution: "typescript@patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"
   bin:
@@ -5252,7 +5261,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:latest":
+"vite@npm:7.3.1":
   version: 7.3.1
   resolution: "vite@npm:7.3.1"
   dependencies:
@@ -5311,25 +5320,25 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vk-test@workspace:."
   dependencies:
-    "@eslint/js": "npm:^10.0.1"
-    "@types/react": "npm:^19.0.0"
-    "@types/react-dom": "npm:^19.0.0"
-    "@vercel/node": "npm:^5.6.16"
+    "@eslint/js": "npm:10.0.1"
+    "@types/react": "npm:19.0.0"
+    "@types/react-dom": "npm:19.0.0"
+    "@vercel/node": "npm:5.6.16"
     "@vitejs/plugin-react": "npm:latest"
-    "@vkontakte/icons": "npm:latest"
-    "@vkontakte/vkui": "npm:latest"
-    axios: "npm:^1.13.6"
-    effector: "npm:^23.4.4"
-    effector-react: "npm:^23.3.0"
-    eslint: "npm:^10.0.2"
-    eslint-plugin-react: "npm:^7.37.5"
-    globals: "npm:^17.4.0"
-    react: "npm:latest"
-    react-dom: "npm:latest"
-    react-router-dom: "npm:^7.13.1"
-    typescript: "npm:latest"
-    typescript-eslint: "npm:^8.56.1"
-    vite: "npm:latest"
+    "@vkontakte/icons": "npm:3.43.0"
+    "@vkontakte/vkui": "npm:7.11.6"
+    axios: "npm:1.13.6"
+    effector: "npm:23.4.4"
+    effector-react: "npm:23.3.0"
+    eslint: "npm:10.0.2"
+    eslint-plugin-react: "npm:7.37.5"
+    globals: "npm:17.4.0"
+    react: "npm:19.2.4"
+    react-dom: "npm:19.2.4"
+    react-router-dom: "npm:7.13.1"
+    typescript: "npm:5.9.3"
+    typescript-eslint: "npm:8.56.1"
+    vite: "npm:7.3.1"
   languageName: unknown
   linkType: soft
 
