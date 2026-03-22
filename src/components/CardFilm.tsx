@@ -7,7 +7,6 @@ import { $favorites } from '../common/model/favorites'
 import { useState } from 'react'
 import ConfirmFavoriteModal from './ConfirmFavoriteModal'
 import { addToFavorites, removeFromFavorites } from '../common/model/favorites'
-import { useNavigate } from 'react-router-dom'
 import { $compareFilmsList, addToCompare, removeFromCompare } from '../common/model/compare'
 
 export function getTitle(doc: PoiskkinoDoc) {
@@ -31,7 +30,7 @@ export default function CardFilm(doc: PoiskkinoDoc) {
   const isInCompare = compareFilms.some(f => f.id === doc.id)
 
 
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
   const favorites = useUnit($favorites)
   const isFavorite = favorites.some((f) => f.id === doc.id)
   const [pendingFilm, setPendingFilm] = useState<PoiskkinoDoc | null>(null)
@@ -63,11 +62,6 @@ export default function CardFilm(doc: PoiskkinoDoc) {
 
   return (
     <>
-      <div
-        key={doc.id}
-        style={{ flex: '1 1 260px', minWidth: 260, maxWidth: 320, cursor: 'pointer' }}
-        onClick={() => navigate(`/film/${doc.id}`)}
-      >
         <Card mode="outline" style={{ position: 'relative' }}>
           {doc.poster?.previewUrl || doc.poster?.url ? (
             <Image
@@ -129,8 +123,6 @@ export default function CardFilm(doc: PoiskkinoDoc) {
             ) : null}
           </Box>
         </Card>
-      </div>
-
       <ConfirmFavoriteModal
         film={pendingFilm}
         onConfirm={handleConfirm}

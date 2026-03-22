@@ -1,3 +1,5 @@
+import {type Nullable } from "../utilites/types"
+
 export type PoiskkinoPoster = {
   url?: string
   previewUrl?: string
@@ -29,5 +31,10 @@ export type PoiskkinoDoc = {
 
 export type PoiskkinoResponse = {
   docs: PoiskkinoDoc[]
+  limit: number
+  next: Nullable<string>
+  prev: Nullable<string>
+  hasNext: boolean,
+  hasPrev: boolean,
 }
 
