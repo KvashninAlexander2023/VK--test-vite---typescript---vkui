@@ -11,9 +11,8 @@ export const ComparePage = () => {
   
   return (
     <Flex direction="column" className={styles.layout} style={{marginTop: 100, padding: 30}}>
-      <Flex justify="space-between" align="center" style={{ marginBottom: 24 }}>
-        <Title level="2">Сравнение фильмов</Title>
-        <Flex gap={12} align="center">
+      <Flex justify="end" align="center" style={{ marginBottom: 24 }}>
+        <Flex gap={12} align="center" >
           <Text>Выбрано: {count}/2</Text>
           {count > 0 && (
             <Button mode="tertiary" onClick={() => clearCompare()}>

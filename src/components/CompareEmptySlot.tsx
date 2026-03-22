@@ -9,7 +9,9 @@ export const CompareEmptySlot = () => {
     <Card mode="outline" style={{ 
       flex: 1, 
       minWidth: 280,
-      padding: 32,
+      maxWidth: 360,
+      minHeight: 360,
+      padding: 16,
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',

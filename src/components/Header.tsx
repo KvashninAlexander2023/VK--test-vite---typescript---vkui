@@ -9,23 +9,23 @@ import styles from '../App.module.css'
 
 export default function Header() {
 
-  const [ _, colorSchemeSwitcher] = useColorSchemeSwitcher()
+  const [_, colorSchemeSwitcher] = useColorSchemeSwitcher()
 
 
   const getNavLinkStyle = ({ isActive }: { isActive: boolean }) => ({
-  textDecoration: isActive ? 'underline' : 'none',
-  color: isActive ? 'var(--vkui--color_text_accent)' : 'inherit'
-})
+    textDecoration: isActive ? 'underline' : 'none',
+    color: isActive ? 'var(--vkui--color_text_accent)' : 'inherit'
+  })
 
   return (
-    <FixedLayout vertical="top" style={{}}>
-      <Flex justify="space-between" align="center" className={styles.header} style={{paddingLeft:50, paddingRight:40}}>
+    <FixedLayout vertical="top" style={{ zIndex: 20, backdropFilter: 'blur(8px)', paddingTop: 10,  paddingBottom: 10 }}>
+      <Flex justify="space-between" align="center" className={styles.header} style={{ paddingLeft: 50, paddingRight: 40 }}>
         <Flex align="center" gap={8}>
           <Title level="2" Component="div">
             <NavLink to={'/'} style={getNavLinkStyle}>YoFilms</NavLink>
           </Title>
         </Flex>
-        <Flex align="center" gap={20}>
+        <Flex align="center" gap={50}>
           <Title level="2" Component="div">
             <NavLink to={'/compare'} style={getNavLinkStyle}>Сравнить фильмы</NavLink>
           </Title>

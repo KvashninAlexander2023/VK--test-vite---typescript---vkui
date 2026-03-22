@@ -62,7 +62,7 @@ export default function CardFilm(doc: PoiskkinoDoc) {
 
   return (
     <>
-        <Card mode="outline" style={{ position: 'relative' }}>
+        <Card mode="outline" style={{ position: 'relative', maxWidth: 300 }}>
           {doc.poster?.previewUrl || doc.poster?.url ? (
             <Image
               src={doc.poster?.previewUrl ?? doc.poster?.url}
@@ -81,7 +81,7 @@ export default function CardFilm(doc: PoiskkinoDoc) {
           )}
 
           <div
-            style={{ position: 'absolute', top: 8, right: 8 }}
+            style={{ position: 'absolute', top: 8, right: 8, opacity: 0.8 }}
             onClick={handleFavoriteClick}
           >
             <IconButton
@@ -100,6 +100,7 @@ export default function CardFilm(doc: PoiskkinoDoc) {
           </div>
 
           <Button
+            style={{marginTop:5, marginLeft:5}}
             mode={isInCompare ? 'outline' : 'secondary'}
             size="m"
             onClick={(e) => {
@@ -114,7 +115,7 @@ export default function CardFilm(doc: PoiskkinoDoc) {
             {isInCompare ? 'Убрать из сравнения' : 'Сравнить'}
           </Button>
 
-          <Box style={{ padding: 16 }}>
+          <Box style={{ padding: 10 }}>
             <Title level="3" Component="h3">
               {getTitle(doc)}
             </Title>

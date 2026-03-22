@@ -22,11 +22,12 @@ import type { PoiskkinoDoc } from '../common/api/poiskkino.types'
 import ConfirmFavoriteModal from '../components/ConfirmFavoriteModal'
 
 export default function FilmDetailPage() {
-  const { id } = useParams<{ id: string }>()
-  const navigate = useNavigate()
-  const [films, pending] = useUnit([$films, $filmsPending])
-  const favorites = useUnit($favorites)
+
   const [pendingFilm, setPendingFilm] = useState<PoiskkinoDoc | null>(null)
+  const { id } = useParams<{ id: string }>()
+  const [films, pending] = useUnit([$films, $filmsPending])
+  const navigate = useNavigate()
+  const favorites = useUnit($favorites)
 
   useEffect(() => {
     if (films.length === 0) {
@@ -38,7 +39,7 @@ export default function FilmDetailPage() {
   const isFavorite = film ? favorites.some((f) => f.id === film.id) : false
 
   const title = film ? getTitle(film) : ''
-  const rating = film ? getRating(film) : null
+  const rating = film ? (getRating(film) ?? '--') : '--'
   const year = film?.year ?? film?.releaseYears?.[0]?.start
   const genres = (film?.genres ?? []).map((g) => g.name).filter(Boolean)
 
@@ -125,14 +126,14 @@ export default function FilmDetailPage() {
                         <Text>{year}</Text>
                       </Box>
                     )}
-                    {rating !== null && (
-                      <Box>
-                        <Subhead style={{ color: 'var(--vkui--color_text_secondary)' }}>
-                          Рейтинг
-                        </Subhead>
-                        <Text>{rating}</Text>
-                      </Box>
-                    )}
+
+                    <Box>
+                      <Subhead style={{ color: 'var(--vkui--color_text_secondary)' }}>
+                        Рейтинг
+                      </Subhead>
+                      <Text>{rating}</Text>
+                    </Box>
+
                     {genres.length > 0 && (
                       <Box>
                         <Subhead style={{ color: 'var(--vkui--color_text_secondary)' }}>

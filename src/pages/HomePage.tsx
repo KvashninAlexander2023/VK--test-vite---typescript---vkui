@@ -58,10 +58,10 @@ export default function HomePage() {
     const nextPage = Math.floor(films.length / 50) + 1
     let query = revertToQuery(filters)
 
-    if(hasMore && nextLink){
+    if (hasMore && nextLink) {
       query = `${query}&next=${nextLink}`
     }
-    
+
     loadFilmsFx({ page: nextPage, query })
   }, [hasMore, pending, films.length, filters])
 
@@ -85,7 +85,7 @@ export default function HomePage() {
   )
 
   return (
-    <Flex direction="column" className={styles.layout}>
+    <Flex direction="column" className={styles.layout} style={{ marginTop: 40}}>
       <Flex
         direction="column"
         align="center"
@@ -114,14 +114,14 @@ export default function HomePage() {
               )}
             </Flex>
           )}
-           {pending && (
+          {pending && (
             <Flex justify="center" style={{ padding: 16 }}>
               <Spinner size="m" />
             </Flex>
           )}
         </Group>
       </Flex>
-      <ScrollToTopButton/>
+      <ScrollToTopButton />
     </Flex>
   )
 }

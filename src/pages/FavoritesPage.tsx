@@ -3,7 +3,6 @@ import {
   Flex,
   Footer,
   Group,
-  Title,
   Text,
   Button,
 } from '@vkontakte/vkui'
@@ -19,38 +18,41 @@ export default function FavoritesPage() {
   const favorites = useUnit($favorites)
 
   return (
-        <Flex direction="column" className={styles.layout}>
-          <Flex
-            direction="column"
-            align="center"
-            gap={16}
-            style={{ paddingTop: 56, paddingBottom: 72 }}
-          >
-            <Group style={{ width: '100%', maxWidth: 960 }}>
-              <Title level="1" Component="h1" style={{ padding: 16, paddingBottom: 0 }}>
-                Избранное
-              </Title>
-
-              {favorites.length === 0 ? (
-                <Flex direction="column" align="center" style={{ padding: 32 }} gap={16}>
-                  <Text style={{ color: 'var(--vkui--color_text_secondary)' }}>
-                    Список избранного пуст
-                  </Text>
-                  <Button onClick={() => navigate('/')}>Перейти к фильмам</Button>
-                </Flex>
-              ) : (
-                <Flex wrap="wrap" gap={16} justify="center" style={{ padding: 16 }}>
-                  {favorites.map((doc) => <CardFilm key={doc.id} {...doc} />)}
-                </Flex>
+    <Flex direction="column" className={styles.layout} style={{ marginTop: 40 }}>
+      <Flex
+        direction="column"
+        align="center"
+        gap={16}
+        style={{ paddingTop: 56, paddingBottom: 72 }}
+      >
+        <Group style={{ width: '100%', maxWidth: 960 }}>
+          {favorites.length === 0 ? (
+            <Flex direction="column" align="center" style={{ padding: 32 }} gap={16}>
+              <Text style={{ color: 'var(--vkui--color_text_secondary)' }}>
+                Список избранного пуст
+              </Text>
+              <Button onClick={() => navigate('/')}>Перейти к фильмам</Button>
+            </Flex>
+          ) : (
+            <Flex wrap="wrap" gap={16} justify="center" style={{ padding: 16 }}>
+              {favorites.map((doc) =>
+                <div
+                  key={doc.id}
+                  style={{ flex: '1 1 260px', minWidth: 260, maxWidth: 320, }}
+                >
+                  <CardFilm {...doc} />
+                </div>
               )}
-            </Group>
-          </Flex>
+            </Flex>
+          )}
+        </Group>
+      </Flex>
 
-          <FixedLayout vertical="bottom">
-            <Footer>
-              <Copyright />
-            </Footer>
-          </FixedLayout>
-        </Flex>
+      <FixedLayout vertical="bottom">
+        <Footer>
+          <Copyright />
+        </Footer>
+      </FixedLayout>
+    </Flex>
   )
 }

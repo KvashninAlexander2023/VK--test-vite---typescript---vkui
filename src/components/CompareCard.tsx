@@ -3,6 +3,7 @@ import { Card, Text, Button, Image } from '@vkontakte/vkui'
 import type { PoiskkinoDoc } from '../common/api/poiskkino.types'
 import { removeFromCompare } from '../common/model/compare'
 import { Earpiece } from './Earpiece'
+import { Icon24CancelCircleOutline } from '@vkontakte/icons'
 
 type CompareCardProps = {
   film: PoiskkinoDoc
@@ -29,17 +30,16 @@ export const CompareCard = ({ film, index }: CompareCardProps) => {
     <Card mode="outline" style={{ 
       flex: 1, 
       minWidth: 280,
+      maxWidth: 360,
       position: 'relative',
       padding: 16
     }}>
-      <Button
-        mode="secondary"
-        size="s"
-        style={{ position: 'absolute', top: 8, right: 8, zIndex:50 }}
+      <Icon24CancelCircleOutline
+        style={{ position: 'absolute', top: 8, right: 8, zIndex:10, cursor: 'pointer', background:'black', borderRadius: '50%',}}
         onClick={() => removeFromCompare(film.id)}
       >
-        ✕
-      </Button>
+
+      </Icon24CancelCircleOutline>
 
         <div style={{ marginBottom: 16 }}>
         {posterUrl ? (
