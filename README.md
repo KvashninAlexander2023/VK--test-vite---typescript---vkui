@@ -10,7 +10,13 @@
   git clone https://github.com/KvashninAlexander2023/VK--test-vite---typescript---vkui.git
 ```
 
-### 2. Установить зависимости
+### 2. Перейти в папку с проектом
+
+```sh
+  cd VK--test-vite---typescript---vkui
+```
+
+### 3. Установить зависимости
 
 ```bash
 yarn install
@@ -22,7 +28,7 @@ yarn install
 ```
 
 
-### 4. Запустить проект
+### 5. Запустить проект
 
 В режиме разработки:
 
@@ -36,7 +42,7 @@ yarn dev
 yarn build
 ```
 
-### 4. Открыть браузер
+### 6. Открыть браузер
 
 ```sh
 http://localhost:3000

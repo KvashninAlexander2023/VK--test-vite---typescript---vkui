@@ -9,7 +9,7 @@ import styles from '../App.module.css'
 
 export default function Header() {
 
-  const [colorSchemeSwitcher] = useColorSchemeSwitcher()
+  const [ _, colorSchemeSwitcher] = useColorSchemeSwitcher()
 
 
   const getNavLinkStyle = ({ isActive }: { isActive: boolean }) => ({
