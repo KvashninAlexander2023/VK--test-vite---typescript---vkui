@@ -9,10 +9,10 @@ import { AppRoot, ColorSchemeProvider } from '@vkontakte/vkui'
 import { useColorSchemeSwitcher } from './ColorSchemeSwitcher'
 import FooterWithLayout from './components/Footer'
 import { ComparePage } from './pages/ComparePage'
+import { useEffect } from 'react'
+import { fetchGenresFx } from './common/model/genres'
 
 export const MainLayout = () => {
-
-
 
   return (
     <>
@@ -27,6 +27,11 @@ export const MainLayout = () => {
 export default function App() {
 
   const [colorScheme] = useColorSchemeSwitcher()
+
+  useEffect(() => {
+    fetchGenresFx()
+    return
+  }, [])
 
   return (
     <ColorSchemeProvider value={colorScheme}>

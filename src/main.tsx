@@ -6,7 +6,7 @@ import '@vkontakte/vkui/dist/cssm/styles/themes.css';
 import App from './App';
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+<StrictMode>
     <BrowserRouter>
       <ConfigProvider>
         <AdaptivityProvider>
@@ -14,5 +14,5 @@ createRoot(document.getElementById('root')!).render(
         </AdaptivityProvider>
       </ConfigProvider>
     </BrowserRouter>
-  </StrictMode>,
+</StrictMode>,
 );
