@@ -2,30 +2,32 @@ import { ChipsSelect, FormItem, FormLayoutGroup, Input } from '@vkontakte/vkui'
 import { useUnit } from 'effector-react'
 import type { ReactNode } from 'react'
 import { $filters, filtersChanged } from '../common/model/filters'
+import { $filmsPending } from '../common/model/films'
+import { transformGenresToSelectOptions } from '../common/utilites/genreHelpers'
+import { $genres, $genresLoading } from '../common/model/genres'
 
-const GENRE_OPTIONS = [
-  { value: 'боевик', label: 'Боевик' },
-  { value: 'драма', label: 'Драма' },
-  { value: 'триллер', label: 'Триллер' },
-  { value: 'криминал', label: 'Криминал' },
-  { value: 'мультфильм', label: 'Мультфильм' },
-  { value: 'история', label: 'История' },
-]
 
 type ChipsOption = {
   value: string
   label: string
 }
 
+// TODO доработать рейтинг, вынести типы, заменить flexRow на vkui
+
 export default function FiltersPanel() {
-  const [filters] = useUnit([$filters])
+
+  const [filters, filmsPending] = useUnit([$filters, $filmsPending])
+  const [genres, genresLoading] = useUnit([$genres, $genresLoading])
+
+  const genresOptions = transformGenresToSelectOptions(genres)
 
   return (
     <FormLayoutGroup mode="horizontal">
       <FormItem top="Жанры">
         <ChipsSelect
+          disabled={filmsPending || genresLoading}
           value={filters.genres.map((g) => ({ value: g, label: g }))}
-          options={GENRE_OPTIONS}
+          options={genresOptions}
           onChange={(items: ChipsOption[]) =>
             filtersChanged({ genres: items.map((item) => item.value) })
           }
@@ -34,8 +36,9 @@ export default function FiltersPanel() {
       </FormItem>
 
       <FormItem top="Рейтинг от / до">
-        <FlexRow>
+        <FlexRow >
           <Input
+            disabled={filmsPending}
             type="number"
             min={0}
             max={10}
@@ -45,6 +48,7 @@ export default function FiltersPanel() {
             }
           />
           <Input
+            disabled={filmsPending}
             type="number"
             min={0}
             max={10}
@@ -59,6 +63,7 @@ export default function FiltersPanel() {
       <FormItem top="Год от / до">
         <FlexRow>
           <Input
+            disabled={filmsPending}
             type="number"
             min={1990}
             value={String(filters.yearFrom)}
@@ -67,6 +72,7 @@ export default function FiltersPanel() {
             }
           />
           <Input
+            disabled={filmsPending}
             type="number"
             min={1990}
             value={String(filters.yearTo)}

@@ -1,25 +1,23 @@
 import {
-  FixedLayout,
   Flex,
-  Footer,
   Group,
   Spinner,
   Text,
   Title,
-  Box,
 } from '@vkontakte/vkui'
 import styles from '../App.module.css'
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { useUnit } from 'effector-react'
 import { $films, $filmsError, $filmsPending, loadFilmsFx } from '../common/model/films'
 import { $filters, syncFiltersFromSearchParams } from '../common/model/filters'
 
 import CardFilm from '../components/CardFilm'
-import ProTip from '../components/ProTip'
-import Copyright from '../components/Copyright'
 import FiltersPanel from '../components/FiltersPanel'
+import { revertToQuery } from '../common/utilites/revertToQuery'
 
 export default function HomePage() {
+
+  const isFirstRender = useRef(true)
 
   const [films, pending, error, filters] = useUnit([
     $films,
@@ -30,25 +28,22 @@ export default function HomePage() {
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
-    syncFiltersFromSearchParams(params)
+    if (params) {
+      syncFiltersFromSearchParams(params)
+    }
   }, [])
 
-  useEffect(() => {
-    void loadFilmsFx({ page: 1 })
-  }, [filters])
+
 
   useEffect(() => {
-    const params = new URLSearchParams()
+    if (isFirstRender.current) {
+      isFirstRender.current = false
+      return
+    }
+    const query = revertToQuery(filters)
 
-    filters.genres.forEach((g) => params.append('genre', g))
-    params.set('ratingFrom', String(filters.ratingFrom))
-    params.set('ratingTo', String(filters.ratingTo))
-    params.set('yearFrom', String(filters.yearFrom))
-    params.set('yearTo', String(filters.yearTo))
+    loadFilmsFx({ page: 1, query })
 
-    const query = params.toString()
-    const newUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname
-    window.history.replaceState(null, '', newUrl)
   }, [filters])
 
   return (
@@ -77,11 +72,6 @@ export default function HomePage() {
               {films.map((doc) => <CardFilm key={doc.id} {...doc} />)}
             </Flex>
           )}
-        </Group>
-        <Group style={{ width: '100%', maxWidth: 960 }}>
-          <Box>
-            <ProTip />
-          </Box>
         </Group>
       </Flex>
     </Flex>
