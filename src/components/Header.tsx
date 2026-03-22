@@ -1,8 +1,11 @@
 
 import { FixedLayout, Flex, Title } from "@vkontakte/vkui";
 import { useColorSchemeSwitcher } from "./ColorSchemeSwitcher";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import styles from '../App.module.css'
+import { useUnit } from "effector-react";
+import { $filters } from "../common/model/filtersStore";
+import { revertToQuery } from "../common/utilites/revertToQuery";
 
 
 
@@ -10,6 +13,15 @@ import styles from '../App.module.css'
 export default function Header() {
 
   const [_, colorSchemeSwitcher] = useColorSchemeSwitcher()
+
+  const location = useLocation()
+  const filters = useUnit($filters)
+
+  const queryFromFilters = revertToQuery(filters)
+
+  const queryFromUrl = location.search
+
+  const to = queryFromFilters ? `/?${queryFromFilters}` : '/'
 
   const getNavLinkStyle = ({ isActive }: { isActive: boolean }) => ({
     textDecoration: isActive ? 'underline' : 'none',
@@ -21,7 +33,8 @@ export default function Header() {
       <Flex justify="space-between" align="center" className={styles.header} style={{ paddingLeft: 50, paddingRight: 40 }}>
         <Flex align="center" gap={8}>
           <Title level="2" Component="div">
-            <NavLink to={'/'} style={getNavLinkStyle}>YoFilms</NavLink>
+            <NavLink to={to}
+              style={getNavLinkStyle}>YoFilms</NavLink>
           </Title>
         </Flex>
         <Flex align="center" gap={50}>
