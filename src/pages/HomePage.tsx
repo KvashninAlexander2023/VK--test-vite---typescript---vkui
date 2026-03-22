@@ -15,11 +15,14 @@ import CardFilm from '../components/CardFilm'
 import FiltersPanel from '../components/FiltersPanel'
 import { revertToQuery } from '../common/utilites/revertToQuery'
 import { useNavigate } from 'react-router-dom'
+import ScrollToTopButton from '../common/hooks/useScrollToTop'
 
 export default function HomePage() {
 
   const isFirstRender = useRef(true)
   const navigate = useNavigate()
+
+
 
   const [films, pending, error, filters, hasMore, nextLink] = useUnit([
     $films,
@@ -118,6 +121,7 @@ export default function HomePage() {
           )}
         </Group>
       </Flex>
+      <ScrollToTopButton/>
     </Flex>
   )
 }
