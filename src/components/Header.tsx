@@ -9,7 +9,7 @@ import styles from '../App.module.css'
 
 export default function Header() {
 
-  const [theme, colorSchemeSwitcher] = useColorSchemeSwitcher()
+  const [colorSchemeSwitcher] = useColorSchemeSwitcher()
 
 
   const getNavLinkStyle = ({ isActive }: { isActive: boolean }) => ({
@@ -22,7 +22,7 @@ export default function Header() {
       <Flex justify="space-between" align="center" className={styles.header} style={{paddingLeft:50, paddingRight:40}}>
         <Flex align="center" gap={8}>
           <Title level="2" Component="div">
-            <NavLink to={'/'} style={getNavLinkStyle}>PoiskKino</NavLink>
+            <NavLink to={'/'} style={getNavLinkStyle}>YoFilms</NavLink>
           </Title>
         </Flex>
         <Flex align="center" gap={20}>

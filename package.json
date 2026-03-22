@@ -9,27 +9,27 @@
     "lint": "eslint . --ext .ts,.tsx"
   },
   "dependencies": {
-    "@vercel/node": "^5.6.16",
-    "@vkontakte/icons": "latest",
-    "@vkontakte/vkui": "latest",
-    "axios": "^1.13.6",
-    "effector": "^23.4.4",
-    "effector-react": "^23.3.0",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-router-dom": "^7.13.1"
+    "@vercel/node": "5.6.16",
+    "@vkontakte/icons": "3.43.0",
+    "@vkontakte/vkui": "7.11.6",
+    "axios": "1.13.6",
+    "effector": "23.4.4",
+    "effector-react": "23.3.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-router-dom": "7.13.1"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
+    "@eslint/js": "10.0.1",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
     "@vitejs/plugin-react": "latest",
-    "eslint": "^10.0.2",
-    "eslint-plugin-react": "^7.37.5",
-    "globals": "^17.4.0",
-    "typescript": "latest",
-    "typescript-eslint": "^8.56.1",
-    "vite": "latest"
+    "eslint": "10.0.2",
+    "eslint-plugin-react": "7.37.5",
+    "globals": "17.4.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.56.1",
+    "vite": "7.3.1"
   },
   "packageManager": "yarn@4.12.0+sha512.f45ab632439a67f8bc759bf32ead036a1f413287b9042726b7cc4818b7b49e14e9423ba49b18f9e06ea4941c1ad062385b1d8760a8d5091a1a31e5f6219afca8"
 }
