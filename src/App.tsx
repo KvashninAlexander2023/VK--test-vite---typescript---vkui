@@ -6,11 +6,11 @@ import FavoritesPage from './pages/FavoritesPage'
 import HomePage from './pages/HomePage'
 import Header from './components/Header'
 import { AppRoot, ColorSchemeProvider } from '@vkontakte/vkui'
-import { useColorSchemeSwitcher } from './ColorSchemeSwitcher'
+import { useColorSchemeSwitcher } from './components/ColorSchemeSwitcher'
 import FooterWithLayout from './components/Footer'
 import { ComparePage } from './pages/ComparePage'
 import { useEffect } from 'react'
-import { fetchGenresFx } from './common/model/genres'
+import { fetchGenresFx } from './common/model/genresStore'
 
 export const MainLayout = () => {
 

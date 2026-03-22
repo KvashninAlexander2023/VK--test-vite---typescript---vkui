@@ -1,25 +1,15 @@
 import { createEvent, createStore, sample } from 'effector'
+import type { FilmsFilters } from '../utilites/types'
+import { getNowYear } from '../utilites/helpers'
 
-export type FilmsFilters = {
-  genres: string[]
-  ratingFrom: number
-  ratingTo: number
-  yearFrom: number
-  yearTo: number
-}
 
-// TODO вынести константы и переиспользуемые типы
-
-export function getYear(){
-  return new Date().getFullYear()
-}
 
 const DEFAULT_FILTERS: FilmsFilters = {
   genres: [],
   ratingFrom: 0,
   ratingTo: 10,
-  yearFrom: getYear()-2,
-  yearTo: getYear(),
+  yearFrom: getNowYear()-2,
+  yearTo: getNowYear(),
 }
 
 export const filtersChanged = createEvent<Partial<FilmsFilters>>()

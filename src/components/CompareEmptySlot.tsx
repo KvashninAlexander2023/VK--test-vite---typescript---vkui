@@ -4,10 +4,10 @@ import { useNavigate } from 'react-router-dom'
 
 export const CompareEmptySlot = () => {
   const navigate = useNavigate()
-  
+
   return (
-    <Card mode="outline" style={{ 
-      flex: 1, 
+    <Card mode="outline" style={{
+      flex: 1,
       minWidth: 280,
       maxWidth: 360,
       minHeight: 360,

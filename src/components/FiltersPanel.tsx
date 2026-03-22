@@ -1,10 +1,10 @@
 import { ChipsSelect, FormItem, FormLayoutGroup, Input } from '@vkontakte/vkui'
 import { useUnit } from 'effector-react'
 import type { ReactNode } from 'react'
-import { $filters, filtersChanged } from '../common/model/filters'
-import { $filmsPending } from '../common/model/films'
-import { transformGenresToSelectOptions } from '../common/utilites/genreHelpers'
-import { $genres, $genresLoading } from '../common/model/genres'
+import { $filters, filtersChanged } from '../common/model/filtersStore'
+import { $filmsPending } from '../common/model/filmsStore'
+import { transformGenresToSelectOptions } from '../common/utilites/helpers'
+import { $genres, $genresLoading } from '../common/model/genresStore'
 
 
 type ChipsOption = {

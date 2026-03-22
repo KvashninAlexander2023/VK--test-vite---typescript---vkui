@@ -7,8 +7,8 @@ import {
 import styles from '../App.module.css'
 import { useCallback, useEffect, useRef } from 'react'
 import { useUnit } from 'effector-react'
-import { $films, $filmsError, $filmsPending, $hasMore, $nextLink, loadFilmsFx } from '../common/model/films'
-import { $filters, syncFiltersFromSearchParams } from '../common/model/filters'
+import { $films, $filmsError, $filmsPending, $hasMore, $nextLink, loadFilmsFx } from '../common/model/filmsStore'
+import { $filters, syncFiltersFromSearchParams } from '../common/model/filtersStore'
 
 import CardFilm from '../components/CardFilm'
 import FiltersPanel from '../components/FiltersPanel'
@@ -47,7 +47,7 @@ export default function HomePage() {
     }
 
     const query = revertToQuery(filters)
-    if(query){
+    if (query) {
       loadFilmsFx({ page: 1, query })
     }
   }, [filters])
@@ -86,7 +86,7 @@ export default function HomePage() {
   )
 
   return (
-    <Flex direction="column" className={styles.layout} style={{ marginTop: 40}}>
+    <Flex direction="column" className={styles.layout} style={{ marginTop: 40 }}>
       <Flex
         direction="column"
         align="center"

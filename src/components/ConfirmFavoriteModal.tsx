@@ -1,5 +1,5 @@
 import { Alert } from '@vkontakte/vkui'
-import type { PoiskkinoDoc } from '../common/api/poiskkino.types'
+import type { PoiskkinoDoc } from '../common/utilites/types'
 
 type ConfirmFavoriteModalProps = {
   film: PoiskkinoDoc | null

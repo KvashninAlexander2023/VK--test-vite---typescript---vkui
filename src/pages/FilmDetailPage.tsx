@@ -12,14 +12,14 @@ import {
 import { Icon24FavoriteOutline, Icon24Favorite } from '@vkontakte/icons'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useUnit } from 'effector-react'
-import { $films, $filmsPending, loadFilmsFx } from '../common/model/films'
-import { $favorites, addToFavorites, removeFromFavorites } from '../common/model/favorites'
+import { $films, $filmsPending, loadFilmsFx } from '../common/model/filmsStore'
+import { $favorites, addToFavorites, removeFromFavorites } from '../common/model/favoritesStore'
 import { Earpiece } from '../components/Earpiece'
-import { getTitle, getRating } from '../components/CardFilm'
 import styles from '../App.module.css'
 import { useEffect, useState } from 'react'
-import type { PoiskkinoDoc } from '../common/api/poiskkino.types'
+import type { PoiskkinoDoc } from '../common/utilites/types'
 import ConfirmFavoriteModal from '../components/ConfirmFavoriteModal'
+import { getRating, getTitle } from '../common/utilites/helpers'
 
 export default function FilmDetailPage() {
 

@@ -3,7 +3,7 @@ import { Icon24ArrowUpOutline } from '@vkontakte/icons'
 import { useState, useEffect } from 'react'
 
 export default function ScrollToTopButton() {
-  const [isVisible, setIsVisible] = useState(false)
+  const [isVisible, setIsVisible] = useState<boolean>(false)
 
   // Показывать кнопку после прокрутки 300px
   useEffect(() => {

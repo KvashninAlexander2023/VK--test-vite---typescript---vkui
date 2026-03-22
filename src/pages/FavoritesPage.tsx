@@ -8,7 +8,7 @@ import {
 } from '@vkontakte/vkui'
 import { useNavigate } from 'react-router-dom'
 import { useUnit } from 'effector-react'
-import { $favorites } from '../common/model/favorites'
+import { $favorites } from '../common/model/favoritesStore'
 import CardFilm from '../components/CardFilm'
 import Copyright from '../components/Copyright'
 import styles from '../App.module.css'

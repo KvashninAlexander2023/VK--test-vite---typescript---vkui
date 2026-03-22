@@ -2,7 +2,7 @@ import { Icon28MoonOutline, Icon28SunOutline } from '@vkontakte/icons';
 import * as React from 'react';
 import { ColorScheme, type ColorSchemeType, IconButton } from '@vkontakte/vkui';
 import { useUnit } from 'effector-react';
-import { $theme, themeChanged, themeInitialized } from './common/model/theme';
+import { $theme, themeChanged, themeInitialized } from '../common/model/themeStore';
 
 
 const ColorSchemeSwitcher: React.FC<{
