@@ -14,6 +14,10 @@ export function revertToQuery(filters: FilmsFilters) {
     const query = params.toString()
     const newUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname
     window.history.replaceState(null, '', newUrl)
+    
+    if(String(filters.yearFrom).length !== 4 || String(filters.yearTo).length !== 4){
+        return null
+    }
 
     return query
 }

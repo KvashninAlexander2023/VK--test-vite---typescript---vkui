@@ -2,7 +2,6 @@ import {
   Flex,
   Group,
   Spinner,
-  Text,
   Title,
 } from '@vkontakte/vkui'
 import styles from '../App.module.css'
@@ -48,7 +47,9 @@ export default function HomePage() {
     }
 
     const query = revertToQuery(filters)
-    loadFilmsFx({ page: 1, query })
+    if(query){
+      loadFilmsFx({ page: 1, query })
+    }
   }, [filters])
 
   ////////////// load films /////////////
@@ -99,8 +100,7 @@ export default function HomePage() {
           <Title level="1" Component="h1" style={{ padding: 16, paddingBottom: 0 }}>
             Фильмы
           </Title>
-          {error && <Text style={{ padding: 16 }}>{error}</Text>}
-          {!error && films && (
+          {films && (
             <Flex wrap="wrap" gap={16} justify="center" style={{ padding: 16 }}>
               {films.map((doc, index) =>
                 <div

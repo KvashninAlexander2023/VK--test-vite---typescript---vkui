@@ -54,7 +54,7 @@ export default function FilmDetailPage() {
 
   return (
     <>
-      <Flex direction="column" className={styles.layout}>
+      <Flex direction="column" className={styles.layout} style={{ marginTop: 40 }}>
         <Flex
           direction="column"
           align="center"
